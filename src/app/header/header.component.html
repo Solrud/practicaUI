@@ -1,0 +1,26 @@
+<div id="headers" class=" d-flex w-100">
+  <div class="flex-fill-1 ">
+  </div>
+
+  <div class="d-flex justify-content-between flex-fill-3">
+    <div class="d-flex">
+      <p class="title-header">practicaUI</p>
+    </div>
+    <div class="d-flex">
+      <div *ngFor = "let navLabel of navBarTitle">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-active dropdown-toggle nav-label" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{navLabel[0]}}
+            </a>
+            <ul class="dropdown-menu dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li *ngFor="let navTitle of navLabel[1]"><a class="dropdown-item" href="#">{{navTitle}}</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="flex-fill-1">
+  </div>
+</div>

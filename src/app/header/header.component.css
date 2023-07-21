@@ -1,0 +1,42 @@
+/*любой текст спан*/
+#headers span {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 14px 5px;
+  color: white;
+}
+/*заголовок*/
+#headers p {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 14px 5px;
+}
+/*иконки bi*/
+#headers i{
+  font-weight: 400;
+  font-size: 13px;
+  margin: 14px 0;
+  color: white;
+}
+/*выпадающие списки*/
+.nav-label{
+  font-weight: 400;
+  font-size: 16px;
+  margin: 14px 10px;
+  color: white;
+  padding: 0 !important;
+}
+.dropdown-menu{
+  background: rgb(116,6,141);
+  background: linear-gradient(180deg, rgba(116,6,141,1) 20%, rgba(255,89,170,1) 100%);
+  --bs-dropdown-border-color: rgba(0, 0, 0, 0.17);
+  --bs-dropdown-link-color: #ebeef1;
+  --bs-dropdown-link-hover-color:#fff;
+  --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);
+  --bs-dropdown-link-active-color: #ff0000;
+  border:1px solid var(--bs-navbar-toggler-border-color);
+  border-radius: 2px !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: #cfbbff;
+}

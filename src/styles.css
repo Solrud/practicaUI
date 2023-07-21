@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.main-blue{
+  color: #74068d !important;
+  /*color: #74068d !important;*/
+  /*color: #0467F1 !important;*     old*/
+}
+.main-blue-bg{
+  background-color: #74068d !important;
+  /*background-color: #74068d !important;*/
+}
+.sec-main-blue-bg{
+  background-color: #303036;
+}
+.sec-white{
+  color: #F0F4F8 !important;
+}
+.sec-white-bg{
+  background-color: #F0F4F8 !important;
+}
+.title-header{
+  font-weight:bold;
+  background-image: linear-gradient(43deg, #e15fff 0%, #ff59aa 100%);
+  /*background-image: linear-gradient(43deg, #aacdff 0%, #9af6ff 100%);*/
+  /*background-image: linear-gradient(43deg, #77b0ff 0%, #9af6ff 100%);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.flex-fill-1{
+  flex: 1 !important;
+}
+.flex-fill-3{
+  flex: 4 !important;
+}
