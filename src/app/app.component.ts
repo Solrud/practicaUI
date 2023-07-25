@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'practicaui';
+
+  //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 токен github
+
+
 }
