@@ -1,3 +1,7 @@
+
+ !!!!токен:  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
+
+
 # Practicaui
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.9.
