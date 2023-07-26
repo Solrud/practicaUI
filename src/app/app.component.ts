@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'practicaui';
 
-  //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 токен github
-
+ //token git without whitespace ->  g h p _f 0tKgjSTFL X4B5I32R9m UMCET2V9v92Cs5 7z
 
 }
