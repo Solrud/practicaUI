@@ -1,0 +1,33 @@
+.container-flex{
+  background-color: #cfbbff;
+  /*height: 500px;*/
+  width: auto;
+  box-sizing: border-box;
+  border: 10px solid #7f00ff;
+}
+.flex-item{
+  padding: 20px;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.98);
+  text-align: center;
+  border: 10px solid #f58766;
+  background-color: #a5f694;
+}
+.container-flex{
+  display: flex;
+  /*height: 100vh;*/
+  /*flex-flow: row wrap;*/
+}
+.flex-item{
+
+
+  width: 100px;
+}
+
+
+
+@media (max-width: 600px){
+  .container-flex{
+    flex-direction: column;
+  }
+}

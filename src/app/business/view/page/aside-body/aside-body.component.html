@@ -1,3 +1,4 @@
-<div *ngIf="changedColor"
-     class="bg-color d-flex h-100">
+<div
+     class="bg-black d-flex h-100"
+     [ngClass]="{'bg-color': changedColor}">
 </div>

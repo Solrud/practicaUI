@@ -5,5 +5,5 @@ import {BehaviorSubject} from "rxjs";
   providedIn: 'root'
 })
 export class EventsService {
-  static onOpenTestObs: BehaviorSubject<boolean> = new BehaviorSubject(false);
+  static onOpenTestObs: BehaviorSubject<boolean> = new BehaviorSubject(false); //обсервбл для изменения aside color
 }
