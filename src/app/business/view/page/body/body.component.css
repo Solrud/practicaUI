@@ -1,6 +1,7 @@
 .container-flex{
   background-color: #cfbbff;
   /*height: 500px;*/
+  display: flex;
   width: auto;
   box-sizing: border-box;
   border: 10px solid #7f00ff;
@@ -13,18 +14,33 @@
   border: 10px solid #f58766;
   background-color: #a5f694;
 }
-.container-flex{
+
+
+.formApiTest{
+  margin: 100px auto;
+  background-color: #ecd56b;
+  height: 300px;
+  width: 700px;
+  border: 3px solid #103442;
+  padding: 30px;
   display: flex;
-  /*height: 100vh;*/
-  /*flex-flow: row wrap;*/
+  flex-direction: row;
+  justify-content: space-between;
 }
-.flex-item{
-
-
-  width: 100px;
+h2, h3{
+  margin: 10px;
+  color: #eaf5eb
 }
-
-
+p{
+  color: #fcfcfd;
+}
+.inner__formApiTest{
+  padding: 10px;
+  height: 280px;
+  width: 300px;
+  align-self: center;
+  background-color: #a91345;
+}
 
 @media (max-width: 600px){
   .container-flex{

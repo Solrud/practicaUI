@@ -10,6 +10,8 @@ import { BodyComponent } from './business/view/page/body/body.component';
 import { FooterComponent } from './business/view/page/footer/footer.component';
 import { MainComponent } from './business/view/page/main/main.component';
 import { AsideBodyComponent } from './business/view/page/aside-body/aside-body.component';
+import {HttpClientModule} from "@angular/common/http";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { AsideBodyComponent } from './business/view/page/aside-body/aside-body.c
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
